@@ -257,6 +257,186 @@
                     "information": "Send the location [x, y] to the set target"
                 }
             ]
+        },
+        "c3po": {
+            "language": "python",
+            "port": "5003",
+            "simpleactions": [
+                {
+                    "name": "go_forward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot starts rolling forward"
+                },
+                {
+                    "name": "go_backward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot starts rolling backwards"
+                },
+                {
+                    "name": "turn_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot turns right for x amount of seconds"
+                },
+                {
+                    "name": "turn_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot turns right for x amount of seconds"
+                },
+                {
+                    "name": "go_slightly_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot moves slightly to the right for x amount of seconds"
+                },
+                {
+                    "name": "go_slightly_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot moves slightly to the left for x amount of seconds"
+                }
+            ]
+        },
+        "C3po": {
+            "language": "python",
+            "port": "5003",
+            "simpleactions": [
+                {
+                    "name": "go_forward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot starts rolling forward"
+                },
+                {
+                    "name": "go_backward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot starts rolling backwards"
+                },
+                {
+                    "name": "turn_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot turns right for x amount of seconds"
+                },
+                {
+                    "name": "turn_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot turns right for x amount of seconds"
+                },
+                {
+                    "name": "go_slightly_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot moves slightly to the right for x amount of seconds"
+                },
+                {
+                    "name": "go_slightly_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Robot moves slightly to the left for x amount of seconds"
+                }
+            ]
+        },
+        "Goose": {
+            "language": "python",
+            "port": "5003",
+            "simpleactions": [
+                {
+                    "name": "go_forward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Move robot forward for x amount of seconds"
+                },
+                {
+                    "name": "go_backward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Move robot backward for x amount of seconds"
+                },
+                {
+                    "name": "turn_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Turn robot right for x amout of seconds"
+                },
+                {
+                    "name": "turn_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Turn robot left for x amount of seconds"
+                },
+                {
+                    "name": "go_to_location",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Choose a location [x, y] for the robot to go to, if empty go to stored location"
+                },
+                {
+                    "name": "stop_movement",
+                    "numArgs": 0,
+                    "type": "move",
+                    "information": "Stop all movement"
+                },
+                {
+                    "name": "receive_location_from_robot",
+                    "numArgs": 0,
+                    "type": "wait",
+                    "information": "Wait for location from another robot"
+                }
+            ]
+        },
+        "Booze": {
+            "language": "python",
+            "port": "5003",
+            "simpleactions": [
+                {
+                    "name": "go_forward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Move robot forward for x amount of seconds"
+                },
+                {
+                    "name": "go_backward",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Move robot backward for x amount of seconds"
+                },
+                {
+                    "name": "turn_right",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Turn robot right for x amout of seconds"
+                },
+                {
+                    "name": "turn_left",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Turn robot left for x amount of seconds"
+                },
+                {
+                    "name": "go_to_location",
+                    "numArgs": 1,
+                    "type": "move",
+                    "information": "Choose a location [x, y] for the robot to go to, if empty go to stored location"
+                },
+                {
+                    "name": "stop_movement",
+                    "numArgs": 0,
+                    "type": "move",
+                    "information": "Stop all movement"
+                },
+                {
+                    "name": "receive_location_from_robot",
+                    "numArgs": 0,
+                    "type": "wait",
+                    "information": "Wait for location from another robot"
+                }
+            ]
         }
     },
     "missions": {
@@ -434,7 +614,7 @@
                             "name": "go_forward",
                             "args": "30",
                             "id": 8
-                        }, 
+                        },
                         {
                             "name": "set_message_target",
                             "args": "moose",
